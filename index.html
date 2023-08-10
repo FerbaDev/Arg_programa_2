@@ -15,10 +15,11 @@
   </head>
   <body>
     <header>
-      <div class="logo-container">
+      <a href="#" class="logo-container">
         <img class="logo" src="./imagenes/logo.svg" alt="logo" />
-      </div>
-      <button class="trybutton open-sans">Try it free</button>
+      </a>
+        <button class="trybutton open-sans"><a href="#">Try it free</a></button>
+      </a>
     </header>
     <main class="banner">
       <h1 class="headings">Build The Community Your Fans Will Love</h1>
@@ -94,14 +95,14 @@
           src="./imagenes/illustration-your-users.svg"
           alt=""
         />
-        <div class="card-text">
+        <article class="card-text">
           <h2 class="headings">Your users</h2>
           <p class="open-sans">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
             recusandae earum qui quo deserunt, nostrum optio ad neque!
             Architecto dolor impedit hic possimus qui ipsum!
           </p>
-        </div>
+        </article>
       </div>
     </section>
     <div class="banner">
@@ -143,17 +144,23 @@
           <section class="footer-contacts">
             <div class="footer-contacts-card">
               <img src="./imagenes/icon-phone.svg" class="footer__svg" />
-              <p class="open-sans p-news">Phone: +1-543-123-4567</p>
+              <p class="open-sans p-news"><a href="tel:+15431234567">Phone: +1-543-123-4567</a></p>
             </div>
             <div class="footer-contacts-card">
               <img src="./imagenes/icon-email.svg" class="footer__svg" />
-              <p class="open-sans p-news">example@huddle.com</p>
+              <a href="mailto:webmaster@example.com" class="open-sans p-news">example@huddle.com</a>
             </div>
-            <div class="footer-redes">
-              <i class="fa-brands fa-square-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-            </div>
+            <nav class="footer-redes">
+              <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </nav>
           </section>
         </section>
       </div>
