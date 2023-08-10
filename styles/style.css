@@ -31,6 +31,7 @@ header {
   padding-block: 5px;
   border-color: hsl(322, 100%, 66%);
   border-radius: 20px;
+  background-color: white;
   font-weight: bold;
 }
 /******* main **********/
@@ -75,7 +76,7 @@ header {
   padding: 20px;
 }
 
-.social-card {
+.social-cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,10 +184,60 @@ header {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  padding-top: 30px;
 }
 
 /***************** mediaqueries ******************/
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1439px) {
+  .banner {
+    max-width: 65%;
+    margin: auto;
+  }
+  .mockup-container {
+    width: 70%;
+    margin: auto;
+  }
+  .card-head {
+    font-size: 60px;
+  }
+  .social-cards {
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .card {
+    justify-content: space-around;
+  }
+  .card-rev {
+    flex-direction: row-reverse;
+  }
+  .card-row {
+    flex-direction: row;
+  }
+  .card-img {
+    width: 40%;
+  }
+  .card-text {
+    text-align: left;
+    width: 30%;
+  }
+  .started-button {
+    padding-inline: 80px;
+    padding-block: 20px;
+    border-radius: 30px;
+  }
+  .footer-xl {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .f-card {
+    width: 40%;
+    padding: 30px;
+  }
+  .footer-form {
+    flex-direction: row;
+  }
 }
 
 @media screen and (max-width: 376px) {
