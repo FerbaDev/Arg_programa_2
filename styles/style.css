@@ -160,6 +160,7 @@ header {
   color: aliceblue;
   width: 100%;
   padding: 20px;
+  margin-top: -1px;
 }
 .footer-newsletter {
   display: flex;
